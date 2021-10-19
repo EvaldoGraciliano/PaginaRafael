@@ -6,6 +6,18 @@
   font-family: 'Ubuntu', sans-serif;
 }
 
+.titulo {
+  font-size: 50px;
+}
+
+.subtitulo {
+  font-size: 30px;
+}
+
+.color {
+
+  font-weight: 700;
+}
 
 header {
 
@@ -17,7 +29,15 @@ header {
 
 
 body {
-  background-image: url("x.jpeg");
-  background-size: cover;
-  background-position: center;
+
+  background-image: url("x-home.jpeg");
+  background-size:cover; /* Cobre toda area da página */
+  background-position:center ; /* posiçao que a imagem fica na tela */
+  background-repeat: no-repeat;
+  height: 100vh;
+
 }
+
+
+
+
