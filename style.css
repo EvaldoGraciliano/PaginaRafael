@@ -6,38 +6,82 @@
   font-family: 'Ubuntu', sans-serif;
 }
 
+
+/* estilizaçao do topo */
 .titulo {
-  font-size: 50px;
+ 
+  font-size: 30px;
+  color: white;
 }
 
 .subtitulo {
-  font-size: 30px;
+  font-size: 50px;
+  line-height: 0.9;
+  color: black;
 }
+
+.bg {
+  background-color: ;
+  height: 200px;
+}
+
+
+/* estilizaçao caixa de plano */
+
+.bg2{
+  background-color: black;
+  max-width: 300px;
+  height: 100px;
+  margin-bottom: 30px;
+  position:relative;
+  bottom:50px;
+
+}
+
+
+.alinhamento {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.cor {
+  color:white;
+}
+
+.cta {
+  display: flex;
+  justify-content: center;
+  
+}
+
+button {
+  height: 100px;
+  width: 200px;
+  
+}
+
+.btn-success {
+  font-size: 30px !important;
+}
+
+
 
 .color {
 
   font-weight: 700;
 }
 
-header {
-
-  display:flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-
-
-body {
-
-  background-image: url("x-home.jpeg");
-  background-size:cover; /* Cobre toda area da página */
-  background-position:center ; /* posiçao que a imagem fica na tela */
-  background-repeat: no-repeat;
-  height: 100vh;
-
-}
 
 
 
 
+
+
+
+
+/* 
+ https://pay.juno.com.br/checkout.html?code=5661AD7BEB9C3647
+ https://pay.juno.com.br/checkout.html?code=627338BD4093D598
+ */
