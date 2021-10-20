@@ -21,7 +21,7 @@
 }
 
 .bg {
-  background-color: ;
+  background-color:#00bc00 ;
   height: 200px;
 }
 
@@ -64,6 +64,7 @@ button {
 
 .btn-success {
   font-size: 30px !important;
+  background-color: #00bc00 !important;
 }
 
 /* Diferenciais */
@@ -77,7 +78,9 @@ button {
 }
 
 
-
+a {
+  text-decoration: none;
+}
 
 
 
