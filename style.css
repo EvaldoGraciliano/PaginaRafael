@@ -75,6 +75,7 @@ button {
 
 .diferencasub{
   font-size: 25px;
+  color: white;
 }
 
 
@@ -83,8 +84,15 @@ a {
 }
 
 
+i {
+  font-size: 25px;
+  color:#00bc00;
+}
 
-
+.background {
+  background-image: url(background.jfif);
+  background-size: cover;
+}
 
 /* 
  https://pay.juno.com.br/checkout.html?code=5661AD7BEB9C3647
