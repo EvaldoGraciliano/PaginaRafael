@@ -108,3 +108,38 @@ i {
 
    margin-top: -40px;
  }
+
+ /* animações */
+.imagemefeito{
+  animation-name: slide;
+  animation-duration:8s;
+}
+
+ .animarbeneficios1{
+  animation-name: slide;
+  animation-duration:10s;
+}
+ .animarbeneficios2{
+  animation-name: slide;
+  animation-duration:14s;
+}
+ .animarbeneficios3{
+  animation-name: slide;
+  animation-duration:18s;
+}
+ .animarbeneficios4{
+  animation-name: slide;
+  animation-duration:22s;
+}
+
+
+
+
+@keyframes slide  {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity:1;
+  }
+}
