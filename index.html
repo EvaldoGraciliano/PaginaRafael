@@ -11,12 +11,14 @@
   <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
   <title>Prime Fit Club</title>
 </head>
 <body class="">
 
   <!-- Estilização do TOPO-->
-  <div class="container text-center bg pt-4 bg">
+  <div class="container text-center bg pt-4 bg" >
     <div class="row ">
       <div class="col d-flex flex-column align-items-center justify-content-center">
         <div class="titulo"> PLANO </div>
@@ -26,7 +28,7 @@
   </div>
 
   <!-- Caixa do plano -->
-  <div class="container text-center bg2 ">
+  <div class="container text-center bg2 " data-aos="fade-left">
     <div class="row ">
       <div class="col mt-3">
         <div class="cor">A PARTIR DE R$ 69,90</div>
@@ -36,7 +38,7 @@
     </div>
   </div>
 
-  <div class="container  altura">
+  <div class="container  altura" data-aos="fade-left">
     <div class="row">
       <img  src="bg2.jfif" class="imagemefeito" alt="">
 
@@ -74,7 +76,7 @@
   </div>
 
    <!-- Caixa do plano -->
-   <div class="container text-center bg2 ">
+   <div class="container text-center bg2 " data-aos="fade-up">
     <div class="row ">
       <div class="col mt-3">
         <div class="cor">A PARTIR DE R$ 99,90</div>
@@ -86,7 +88,7 @@
 
   <div class="container  altura">
     <div class="row">
-      <img   class="" src="bg3.jfif"  loading="lazy" alt="">
+      <img   class="" src="bg3.jfif"  data-aos="fade-up" alt="">
 
     </div>
     
@@ -107,10 +109,21 @@
   </div>
   </div>
 
-  <a style="text-decoration:none" href=" https://pay.juno.com.br/checkout.html?code=627338BD4093D598"><div class="cta mt-4"><button class="btn btn-success mb-5"> Aproveitar Agora  </button></div></a>
+  <a  style="text-decoration:none" href=" https://pay.juno.com.br/checkout.html?code=627338BD4093D598"><div  data-aos2="fade-up" class="cta mt-4"><button   class="btn btn-success mb-5"> Aproveitar Agora  </button></div></a>
 
 
  
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration:2000,
+    });
+
+    AOSx.init({
+      duration:2000,
+    });
+  </script>
+
 </body>
 </html>
