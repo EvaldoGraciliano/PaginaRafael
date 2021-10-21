@@ -113,6 +113,10 @@ i {
 .imagemefeito{
   animation-name: slide;
   animation-duration:8s;
+  opacity: 0;
+  transform: translateX(-180px);
+  animation-fill-mode: forwards;
+  
 }
 
  .animarbeneficios1{
@@ -140,6 +144,8 @@ i {
     opacity: 0;
   }
   to {
+    transform: translateX(0);
     opacity:1;
   }
 }
+
