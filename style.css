@@ -113,6 +113,10 @@ i {
    font-size: 40px;
  }
 
+
+ .ouro {
+   color:rgb(206, 178, 18);
+ }
  /* animações 
 .imagemefeito{
   animation-name: slide;
